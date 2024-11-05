@@ -19,5 +19,9 @@ import com.contact.service.ContactService;
 		public List<Contact> getName(@PathVariable("userId") Long userId) {
 			return this.contactService.getContactsOfUser(userId);
 		}
+		@GetMapping("/user/{message}")
+		public String getMessage(@PathVariable("message") String message) {
+			return "Hello "+message;
+		}
 
 }
