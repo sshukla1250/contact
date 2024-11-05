@@ -1,8 +1,11 @@
 server:
   port: 9004
   
-spring:  application:    name: Contact-Service 
+spring:
+  application:
+    name: Contact-Service 
     
 eureka:
-  instance:
-    hostname: localhost     
+  client:
+    service-url:
+       default-zone: https://for-github-actions2-debb0c8f9edb.herokuapp.com/eureka     
