@@ -5,7 +5,7 @@ spring:
   application:
     name: Contact-Service 
     
-eureka:
-  client:
-    service-url:
-       default-zone: https://for-github-actions2-debb0c8f9edb.herokuapp.com/eureka     
+#eureka:
+#  client:
+#    service-url:
+#       default-zone: https://for-github-actions2-debb0c8f9edb.herokuapp.com/eureka     
